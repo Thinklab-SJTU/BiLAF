@@ -1,4 +1,7 @@
 # Boundary Matters: A Bi-Level Active Finetuning Method (NeurIPS 2024)
+
+## Authors: Han Lu, Yichen Xie, Xiaokang Yang, Junchi Yan
+
 ## Abstract
 
 The pretraining-finetuning paradigm has gained widespread adoption in vision tasks and other fields. However, the finetuning phase still requires high-quality annotated samples. To overcome this challenge, the concept of active finetuning has emerged, aiming to select the most appropriate samples for model finetuning within a limited budget. Existing active learning methods  struggle in this scenario due to their inherent bias in batch selection. Meanwhile, the recent active finetuning approach focuses solely on global distribution alignment but neglects the contributions of samples to local boundaries. Therefore, we propose a Bi-Level Active Finetuning framework (BiLAF) to select the samples for annotation in one shot, encompassing two stages: core sample selection for global diversity and boundary sample selection for local decision uncertainty. Without the need of ground-truth labels, our method can successfully identify pseudo-class centers, apply a novel denoising technique, and iteratively select boundary samples  with designed evaluation metric. Extensive experiments provide  qualitative and quantitative evidence of our method's superior efficacy, consistently outperforming the existing baselines.
@@ -86,7 +89,7 @@ The finetuning process may be very sensitive to batch size or learning rate. To 
 
 ## Acknowledgment
 
-The code of this repo is developed based on [dino](https://github.com/facebookresearch/dino) and [deit](https://github.com/facebookresearch/deit). We sincerely thank the authors for making their projects open-source.
+The code of this repo is developed based on [dino](https://github.com/facebookresearch/dino), [deit](https://github.com/facebookresearch/deit) and [ActiveFT](https://github.com/yichen928/ActiveFT). We sincerely thank the authors for making their projects open-source.
 
 ## Reference
 
