@@ -96,10 +96,10 @@ The code of this repo is developed based on [dino](https://github.com/facebookre
 If you find our work useful, please consider citing the following paper: 
 
 ```bibtex
-@article{lu2024boundary,
-  title={Boundary Matters: A Bi-Level Active Finetuning Framework},
+@inproceedings{luboundary,
+  title={Boundary Matters: A Bi-Level Active Finetuning Method},
   author={Lu, Han and Xie, Yichen and Yang, Xiaokang and Yan, Junchi},
-  journal={arXiv preprint arXiv:2403.10069},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
   year={2024}
 }
 ```
